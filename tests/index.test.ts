@@ -3,7 +3,7 @@ import { expect, it } from 'vitest'
 import { presetStarter } from '../src'
 
 it('presetStarter', async () => {
-  const uno = createGenerator({
+  const uno = await createGenerator({
     presets: [presetStarter()],
   })
   const presets = uno.config.presets
