@@ -5,7 +5,7 @@
       "esnext"
     ],
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "strict": true,
     "noFallthroughCasesInSwitch": true,
